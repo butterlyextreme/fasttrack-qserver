@@ -75,6 +75,5 @@ func calculateGrade(r int) float64 {
 	for i := 0; i <= r; i++ {
 		total += gradeSum[i]
 	}
-	fmt.Printf("res: %d total: %d totalGrade: %d percentage %2.2f\n", r, total, totalGrade, float64(total)/float64(totalGrade)*100)
 	return float64(total) / float64(totalGrade) * 100
 }

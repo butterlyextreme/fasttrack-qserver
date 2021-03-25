@@ -15,8 +15,13 @@ limitations under the License.
 */
 package main
 
+import (
+	"fmt"
+)
+
 func main() {
 	s := Server{}
 	s.Initialize()
+	fmt.Printf("qserver started at port: 8010")
 	s.Run(":8010")
 }
