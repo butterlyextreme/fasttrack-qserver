@@ -22,6 +22,6 @@ import (
 func main() {
 	s := Server{}
 	s.Initialize()
-	fmt.Printf("qserver started at port: 8010")
+	fmt.Printf("qserver started at port: 8010\n")
 	s.Run(":8010")
 }
